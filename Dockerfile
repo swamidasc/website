@@ -1,2 +1,2 @@
-FROM ubuntu
+FROM website 
 ADD . /var/www/html
