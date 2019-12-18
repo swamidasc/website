@@ -1,5 +1,2 @@
-FROM ubuntu
-RUN apt-get update
-RUN apt-get -y install apache2
-RUN service apache2 start
+FROM swamidas/webone
 ADD . /var/www/html
