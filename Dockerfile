@@ -1,3 +1,3 @@
 FROM swamidas/webone
 ADD . /var/www/html
-RUN service apache2 start
+CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
